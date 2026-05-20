@@ -2,7 +2,7 @@ package bookstoread;
 
 import java.time.LocalDate;
 
-public class Book {
+public class Book implements Comparable<Book> {
     private final String title;
     private final String author;
     private final LocalDate publishedOn;
