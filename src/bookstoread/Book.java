@@ -25,4 +25,7 @@ public class Book {
                 ", publishedOn=" + publishedOn +
                 '}';
     }
+        public int compareTo(Book that) {
+            return this.title.compareTo(that.title);
+        }
 }
