@@ -26,6 +26,7 @@ public class Book {
                 '}';
     }
         public int compareTo(Book that) {
-            return this.title.compareTo(that.title);
+
+        return this.title.compareTo(that.title);
         }
 }
